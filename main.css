@@ -1,30 +1,66 @@
-.col-4 {
+body{
+    margin-left: 10px;
+}
+.col-4{
     float: none;
 }
 
-body p {
+h3{
     text-align: center;
 }
 
-.background_black {
-background-color: black;
+h4{
+    text-align: center;
 }
 
-.btn {
+body p{
+    text-align: center;
+}
+
+.btn{
 background-color: rgb(0, 0, 0);
 color: white;
 border: 2px solid white;
-width: 200px;
+width: 300px;
 border-radius: 50px;
 }
 
-.btn:hover {
+.btn:hover{
     background-color: white;
     color: black;
     border: 2px solid black; 
 }
 
+.buttons{
+        margin: auto;
+        width: 300px;
+    }
 
+
+.album{
+    display: block;
+    margin: auto;
+    width: 300px;
+
+}
+
+.logo{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+
+.background{
+    color: white;
+    background-image: url(assets/background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.text{
+    margin:10px;
+}
 
 /* Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -34,9 +70,13 @@ border-radius: 50px;
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-    .col-4 {
-        float: left;
+    .background{
+        color: white;
+        background-image: none;
+        background-color: black;
+        height: 100%;
     }
+    
 }
 
 /* Large devices (desktops, 992px and up)
