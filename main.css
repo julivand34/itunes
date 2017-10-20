@@ -85,12 +85,12 @@ border-radius: 50px;
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-    .background{
+    .backgr-medium{
         color: white;
         background-image: none;
         background-color: black;
-        height: 100%;
     }
+
     
 }
 
