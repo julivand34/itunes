@@ -51,16 +51,31 @@ border-radius: 50px;
 }
 
 
+.backgroundtop{
+    color: white;
+    background-image: url(assets/backgroundtop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .background{
     color: white;
-    background-image: url(assets/background.png);
+    background-color: black;
+
+}
+
+.backgroundbottom{
+    color: white;
+    background-image: url(assets/backgroundbottom.png);
     background-size: 100% 100%;
+    height: 300px;
     background-repeat: no-repeat;
 }
 
 .text{
     margin:10px;
 }
+
 
 /* Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
