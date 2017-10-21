@@ -1,6 +1,23 @@
-body{
-    margin-left: 10px;
+body, html {
+    height: 100%;
+    margin: 0;
 }
+.hero-image {
+    background-color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.logo {
+    background-image: url(assets/Logo-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
 .col-4{
     float: none;
 }
@@ -76,6 +93,15 @@ border-radius: 50px;
     margin:10px;
 }
 
+.backgr-medium{
+    color: white;
+    background-image: none;
+    background-color: black;
+}
+
+.col-12.col-sm{
+padding: 0px;
+}
 
 /* Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -86,14 +112,13 @@ border-radius: 50px;
 /* Medium devices (tablets, 768px and up)*/
 
 
-
 @media (min-width: 768px) { 
-    .backgr-medium{
-        color: white;
+    .backgroundtop{
         background-image: none;
-        background-color: black;
     }
-    
+    .backgroundbottom{
+        background-image: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up)
@@ -101,3 +126,40 @@ border-radius: 50px;
 
 /* Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }*/
+
+
+.footer {
+    color: white;
+    width:100%;
+    margin-top: 40px;
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+  }
+
+
+
+  /*   TYPOGRAPHY   */
+
+  @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+  @import url('https://fonts.googleapis.com/css?family=Heebo:100');
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+h3 {
+    font-family: 'Playfair Display', serif;
+  }
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+ol {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
